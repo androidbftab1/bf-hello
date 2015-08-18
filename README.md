@@ -6,12 +6,12 @@ docker build -t bf-hello .
 
 
 hello.c:  
-#include<stdio.h>  
+    #include<stdio.h>  
 
-int main() {  
-	printf("Hello World!!\n");  
-	return 0;  
-}  
+    int main() {  
+    	printf("Hello World!!\n");  
+    	return 0;  
+    }  
 
 Makefile:  
 all:: hello  
